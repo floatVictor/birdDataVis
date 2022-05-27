@@ -151,7 +151,7 @@ export default {
 			//console.log(this.birdsList);
 		},
 		receiveBirdValue(value) {
-			console.log(value);
+			//console.log(value);
 			this.birdsList = [];
 			this.maxCount = 0;
 			fetch(
@@ -168,8 +168,8 @@ export default {
 			)
 				.then((response) => response.json())
 				.then((data) => {
-					console.log(data);
-					console.log(data.length);
+					//console.log(data);
+					//console.log(data.length);
 					this.getLatLongRange(data);
 					for (let i = 0; i < data.length; i++) {
 						this.birdsList.push(
@@ -197,7 +197,7 @@ export default {
 						if (data[i].howMany > this.maxCount)
 							this.maxCount = data[i].howMany;
 					}
-					console.log(this.birdsList);
+					//console.log(this.birdsList);
 				});
 		},
 

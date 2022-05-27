@@ -33,4 +33,11 @@ export default {
 	color: #2c3e50;
 	background-color: rgb(83, 83, 83);
 }
+.example::-webkit-scrollbar {
+	display: none;
+}
+.example {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
 </style>

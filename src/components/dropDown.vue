@@ -93,7 +93,6 @@ p {
 	border-width: 8px 5px 0px 5px;
 	border-color: #7b7b7b transparent transparent transparent;
 }
-.select select:hover ~ .select_arrow,
 .select select:focus ~ .select_arrow {
 	border-top-color: #000000;
 }
